@@ -1,0 +1,27 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test-ai-standard
+  # namespace: default
+  description: A starter template for NextJS AI Apps
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: xgeekshq/test-ai-standard
+  tags: ["service", "nextjs", "ai"]
+  links:
+    - url: https://github.com/xgeekshq/test-ai-standard.git
+      title: Project Source Code Repository
+      icon: github
+    - url: https://github.com/xgeekshq/test-ai-standard_deployment.git
+      title: Project Deployment Repository
+      icon: github
+    - url: https://test-ai-standard-dev.xgeeks.tech
+      title: Project Website
+      icon: website
+    # - title: ArgoCD Dashboard
+    #   icon: dashboard
+    #   url: https://argocd.xgeeks.tech/applications/argocd/test-ai-standard-dev?view=tree&resource=
+spec:
+  type: service
+  lifecycle: experimental # REQUIRED, usually = production | experimental | deprecated
+  owner: group:default/idp_training
