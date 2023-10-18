@@ -11,7 +11,7 @@ export default function Home() {
         </h1>
 
         <p className="mx-auto mt-4 max-w-xl text-center text-xl leading-8 text-slate-400">
-          Ask questions about the content in our blog
+          Example use cases to get you started.
         </p>
 
         <Examples />
