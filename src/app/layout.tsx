@@ -5,7 +5,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "xgeeks AI",
-  description: "Ask questions about the content in our blog",
+  description: "Example use cases to get you started.",
 };
 
 export default function RootLayout({
